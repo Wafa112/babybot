@@ -1,5 +1,5 @@
 /*
-]=====> RAMLAN ID <=====[ ]=====> YT Ramlan ID <=====[ ]=====> 085559240360 <=====[
+]=====> WAFA <=====[ ]=====>*<=====[ ]=====> 085754179412 <=====[
 */
 // ANAK ANJING PASTI YANG ATAS DI UBAH
 // NGOTAK KONSOL
@@ -43,9 +43,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { nad } = require('./language')
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:RAMLAN ID\n' // GANTI NAMA LU
+            + 'FN:Wafa\n' // Wafa
             + 'ORG:OWNER BOTZ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // GANTI NOMOR LU
+            + 'TEL;type=CELL;type=VOICE;waid=6285754179412:+62 857-5417-9412\n' // GANTI NOMOR LU
             + 'END:VCARD'
 // UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
@@ -59,8 +59,8 @@ const {
     UserLimitz,
     CeerTod
 } = ngonsol
-// POWERED BY RAMLAN ID
-prefix = botPrefix
+// POWERED BY Wafa ID
+prefix = '.'
 blocked = []   
 limitawal = UserLimitz
 memberlimit = GrupLimitz
